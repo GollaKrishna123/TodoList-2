@@ -1,0 +1,16 @@
+select{
+    height:30px;
+    margin-top: 18px;
+}
+.todo-flex1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.todo-flex2{
+    display: flex;
+    gap:20px;
+}
+.todo-items{
+    text-align: center;
+}

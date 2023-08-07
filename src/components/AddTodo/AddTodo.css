@@ -1,0 +1,41 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color:lavender;
+    width:450px;
+    text-align:center;
+    height:50vh;
+    margin-top:40px;
+    border-radius:10px
+}
+.form-input{
+    margin: 30px;
+}
+.form-input label{
+    display:block;
+    font-size:18px
+}
+input{
+    padding:5px 10px;
+    outline:none;
+    border: 1px solid grey;
+}
+button{
+    margin:0px 10px;
+    padding:5px 18px;
+    border-width:0px;
+    border-radius:5px;
+    cursor:pointer;
+    color: white;
+}
+.submit-btn{
+    background-color: green;
+}
+.clr-btn{
+    background-color: red;
+}
+
+

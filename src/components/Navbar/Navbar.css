@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: blue;
+    color: white;
+    height: 80px;
+    align-items: center,
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu-list li{
+    list-style-type :none;
+    color: white;
+}
+.item-link{
+    text-decoration: none;
+}

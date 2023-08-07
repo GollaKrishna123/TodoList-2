@@ -1,0 +1,40 @@
+.todo-container{
+    border: 2px solid black;
+    margin: 0px 20px 20px 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavender;
+}
+.checkbox{
+    height: 20px;
+    width:20px;
+    margin-top: 28px;
+    margin-right: 10px;
+}
+.todo-title{
+    margin: 25px 0px 0px 0px;
+}
+.todo-description{
+    padding-left: 35px;
+}
+.todo-points{
+   padding-left: 35px; 
+   font-weight: bold;
+   font-size: 18px;
+}
+.delete-btn{
+    background-color: red;
+    padding: 8px 0px;
+    width:5rem;
+    cursor: pointer;
+}
+.edit-btn{
+    background-color: blue;
+    padding: 8px 0px;
+    width:5rem;
+    cursor: pointer;
+}
