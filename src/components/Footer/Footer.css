@@ -1,4 +1,4 @@
-.footer1{
+.footer-top{
     background-color: blue;
     height: 40vh;
     color: white;
@@ -20,33 +20,31 @@
     margin-right:15px;
     margin-top: 0px;
 }
-.first{
+.first-container{
     list-style-type : none;
     margin-top: 9px;
 }
-.first p{
+.first-container p{
     width: 300px;
     padding-bottom: 10px;
 }
-.second{
-    list-style-type : none;
-    
-    
-}
-.third{
+.second-container{
     list-style-type : none;
 }
-.second li{
+.third-container{
+    list-style-type : none;
+}
+.second-container li{
     padding: 5px 0px;
 }
 h4{
     padding-bottom: 10px;
     font-size: 20px;
 }
-.third li{
+.third-container li{
     padding: 5px 0px;
 }
-.footer2{
+.footer-bottom{
     color: white;
     background-color: black;
     height: 15vh;
@@ -55,16 +53,16 @@ h4{
     justify-content: center;
     align-items: center;
 }
-.second h4{
+.second-container h4{
     margin-bottom: 10px;
     margin-top: 0px;
     padding: 0px;
 }
-.third h4{
+.third-container h4{
     margin-bottom: 10px;
     margin-top: 0px;
     padding: 0px;
 }
-.footer2 h4{
+.footer-bottom h4{
     margin: 0px;
 }
