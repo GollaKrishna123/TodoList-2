@@ -5,7 +5,7 @@ const mockData = [
     description : "Go by 11AM",
     id: uuid(),
     checked : false,
-    points : 15
+    points : 30
   },
   {
     title: "Take Bath",
