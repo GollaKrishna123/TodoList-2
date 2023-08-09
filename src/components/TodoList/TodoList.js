@@ -22,11 +22,11 @@ const TodoList = ({
     }
   }
  
-  let yourRating = checkedCards > 0 ? Math.round(scoredPoints / checkedCards) : 0;
+  let yourRating = checkedCards > 0 ? Math.ceil(scoredPoints / checkedCards) : 0;
 
-  let totalRating = Math.round(totalPoints / todos.length);
+  let totalRating = Math.ceil(totalPoints / todos.length);
 
-  let averageRating = totalRating !== 0 ? Math.round(yourRating / totalRating) : 0;
+  let averageRating = totalRating !== 0 ? Math.ceil(yourRating / totalRating) : 0;
 
   const strikeHandler = (id) => {
     console.log(todos, "todos after checked");
